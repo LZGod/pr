@@ -1,4 +1,4 @@
-import random
+simport random
 def words(a):
     d = {}
     with open(a) as q:
@@ -17,7 +17,7 @@ def main():
     win = {'you win', 'victory', 'congrats'}
     lose = {'you lose', 'oh no', 'no result'}
     w = words("alll.txt")
-    o = random.choice(w.key())
+    o = random.choice(w.keys())
     print(o)
     print("Попытайтесь угадать слово(у вас 1 попытка).")
     a = input()
